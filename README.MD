@@ -36,7 +36,8 @@ This repository consist of a results of ETL project using S3 and Snowflake.
 ![Image](images/image08.png)
 
 2.  Creation of CORE_DWH schema and tables within
--> 1.1.0__Tables_creation.sql
+1.1.0__Tables_creation.sql
+
 
 3.  Create stage for S3
 ![Image](images/image09.png)
@@ -49,3 +50,9 @@ This repository consist of a results of ETL project using S3 and Snowflake.
 
 6.  Peaking the data from stage
 ![Image](images/image12.png)
+
+
+### Preparing the ETL process
+
+1.  Prepare Stage Procedure to ingest data from Stage to CORE_DWH schema
+![Image](images/image14.png)
