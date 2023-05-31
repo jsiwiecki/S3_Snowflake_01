@@ -1,7 +1,8 @@
 # General descrition of this project
-
+This repository consist of a results of ETL project using S3 and Snowflake.
 
 ## Goal of this repository:
+- Practice ETL process using S3 & Snowflake
 - Practice integration between S3 and Snowflake
 - Explore Snowflake's features like: Tasks, Stored Procedures etc. 
 
