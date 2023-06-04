@@ -71,21 +71,22 @@ This repository consist of a results of ETL project using S3 and Snowflake.
 ![Image](images/image17.png)
 
 6.  Creation of tables based on Star Schema in DATA_MART
+`1.1.2__Tables_creation_DATA_MART.sql`
 ![Image](images/image18.png)
 
 7.  Creation of Stored Procedures to move data from CORE_DWH to DATA_MART with changed schema.
 ![Image](images/image19.png)
 
 8.  Creation of one procedure to move CORE_DWH to DATA_MART
-`1.1.2__SP_CoreDWH_to_DATA_MART.sql`
+`1.1.3__SP_CoreDWH_to_DATA_MART.sql`
 ![Image](images/image20.png)
 
 9.  Creation of streams in DATA_MART.
-`1.1.3__Streams.sql`
+`1.1.4__Streams.sql`
 ![Image](images/image21.png)
 
 10.  Create task to navigate all the data movement.
-`1.1.4__ETL_Tasks.sql`
+`1.1.5__ETL_Tasks.sql`
 ![Image](images/image22.png)
 
 20.	Connecting Snowflake as a data source to PowerBI and creation of a simple dashboard.
