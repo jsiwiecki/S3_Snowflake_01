@@ -1,5 +1,5 @@
 //////////////////////////////////////
-/////CUSTOMER
+/////   S3 -> CORE_DWH.CUSTOMER
 
 
 CREATE OR REPLACE PROCEDURE load_data_to_customer()
@@ -25,7 +25,7 @@ $$;
 
 
 //////////////////////////////////////
-/////LINEITEM
+/////   S3 -> CORE_DWH.LINEITEM
 
 
 CREATE OR REPLACE PROCEDURE load_data_to_lineitem()
@@ -51,7 +51,7 @@ $$;
 
 
 //////////////////////////////////////
-/////NATION
+/////   S3 -> CORE_DWH.NATION
 
 
 CREATE OR REPLACE PROCEDURE load_data_to_nation()
@@ -77,7 +77,7 @@ $$;
 
 
 //////////////////////////////////////
-////ORDERS
+////    S3 -> CORE_DWH.ORDERS
 
 
 CREATE OR REPLACE PROCEDURE load_data_to_orders()
@@ -103,7 +103,7 @@ $$;
 
 
 //////////////////////////////////////
-////PART
+////    S3 -> CORE_DWH.PART
 
 
 CREATE OR REPLACE PROCEDURE load_data_to_part()
@@ -126,7 +126,7 @@ $$;
 
 
 //////////////////////////////////////
-////PARTSUPP
+////    S3 -> CORE_DWH.PARTSUPP
 
 
 CREATE OR REPLACE PROCEDURE load_data_to_partsupp()
@@ -152,7 +152,7 @@ $$;
 
 
 //////////////////////////////////////
-////REGION
+////    S3 -> CORE_DWH.REGION
 
 
 CREATE OR REPLACE PROCEDURE load_data_to_region()
@@ -178,7 +178,7 @@ $$;
 
 
 //////////////////////////////////////
-///SUPPLIER
+/// S3 -> CORE_DWH.SUPPLIER
 
 
 CREATE OR REPLACE PROCEDURE load_data_to_supplier()
