@@ -7,6 +7,19 @@ This repository consist of a results of ETL project using S3 and Snowflake.
 - Explore Snowflake's features like: Streams, Tasks, Stored Procedures etc. 
 
 
+### Repository contains:
+1. Scripts used in this project
+2. Documented the whole work done in this project 
+
+
+### What was done in this repo:
+1. Creation of Tables in two schemas (with a transformation to Star Schema in DATA_MART)
+2. Creation of Integration between Snowflake & S3 
+4. Creation of Stored Procedures that move and transform data S3 -> CORE_DWH -> DATA_MART
+5. Creation of Streams in Snowflake to observe changes done in tables
+6. Creation of Tasks that will trigger whole ETL process
+
+# Documented the whole work:
 
 ### Setup AWS
 1.  Creation of S3 to put there files
