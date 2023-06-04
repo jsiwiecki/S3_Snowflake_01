@@ -19,7 +19,7 @@ This repository consist of a results of ETL project using S3 and Snowflake.
 5. Creation of Streams in Snowflake to observe changes done in tables
 6. Creation of Tasks that will trigger whole ETL process
 
-# Documented the whole work:
+# Whole work documented:
 
 ### Setup AWS
 1.  Creation of S3 to put there files
