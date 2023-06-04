@@ -81,10 +81,11 @@ This repository consist of a results of ETL project using S3 and Snowflake.
 ![Image](images/image20.png)
 
 9.  Creation of streams in DATA_MART.
+`1.1.3__Streams.sql`
 ![Image](images/image21.png)
 
 10.  Create task to navigate all the data movement.
-`1.1.3__ETL_Tasks.sql`
+`1.1.4__ETL_Tasks.sql`
 ![Image](images/image22.png)
 
 20.	Connecting Snowflake as a data source to PowerBI and creation of a simple dashboard.
