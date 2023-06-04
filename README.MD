@@ -52,7 +52,15 @@ This repository consist of a results of ETL project using S3 and Snowflake.
 ![Image](images/image12.png)
 
 
-### Preparing the ETL process
+### Preparation for ETL process
 
-1.  Prepare Stage Procedure to ingest data from Stage to CORE_DWH schema
-![Image](images/image14.png)
+1.  Prepare query to ingest data
+![Image](images/image13.png)
+
+2.  Prepare query that cleans data
+![Image](images/image13.png)
+
+2.  Prepare Stage Procedures to ingest data from Stage to CORE_DWH schema from each file to according table
+`1.1.1__SP_S3_to_CoreDWH.sql`
+![Image](images/image15.png)
+
