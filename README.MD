@@ -60,7 +60,32 @@ This repository consist of a results of ETL project using S3 and Snowflake.
 2.  Prepare query that cleans data
 ![Image](images/image13.png)
 
-2.  Prepare Stage Procedures to ingest data from Stage to CORE_DWH schema from each file to according table
+3.  Prepare Stage Procedures to ingest data from Stage to CORE_DWH schema from each file to according table
 `1.1.1__SP_S3_to_CoreDWH.sql`
 ![Image](images/image15.png)
 
+4.  Creation of one stored procedure to “rule them all” and automate data movement from Stage to CORE_DWH.
+![Image](images/image16.png)
+
+5.  Creation of streams for tables in CORE_DWH
+![Image](images/image17.png)
+
+6.  Creation of tables based on Star Schema in DATA_MART
+![Image](images/image18.png)
+
+7.  Creation of Stored Procedures to move data from CORE_DWH to DATA_MART with changed schema.
+![Image](images/image19.png)
+
+8.  Creation of one procedure to move CORE_DWH to DATA_MART
+`1.1.2__SP_CoreDWH_to_DATA_MART.sql`
+![Image](images/image20.png)
+
+9.  Creation of streams in DATA_MART.
+![Image](images/image21.png)
+
+10.  Create task to navigate all the data movement.
+`1.1.3__ETL_Tasks.sql`
+![Image](images/image22.png)
+
+20.	Connecting Snowflake as a data source to PowerBI and creation of a simple dashboard.
+![Image](images/image23.png)
