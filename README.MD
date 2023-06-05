@@ -1,5 +1,5 @@
 # General descrition of this project
-This repository consist of a results of ETL project using S3 and Snowflake.
+This repository uses TPC-H benchmark data set for needs of an ETL project using S3 and Snowflake.
 
 ## Goal of this repository:
 - Practice ETL process using S3 & Snowflake
